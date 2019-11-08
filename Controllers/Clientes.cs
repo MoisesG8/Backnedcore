@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BackendTienda.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class Clientes : Controller
     {
         //metodo para login
